@@ -5,7 +5,7 @@ class Solution(object):
         if len(word1) != len(word2):
             return False
         
-        # Chceck if the sets of characters are the same
+        # Check if the sets of characters are the same
         if set(word1) != set(word2):
             return False
         

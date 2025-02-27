@@ -9,7 +9,7 @@ class Solution(object):
         if set(word1) != set(word2):
             return False
         
-        #Get the frequency of each charcter in both words
+        #Get the frequency of each character in both words
         count1 = Counter(word1)
         count2 = Counter(word2)
 

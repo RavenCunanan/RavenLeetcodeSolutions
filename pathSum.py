@@ -6,7 +6,7 @@ class Solution(object):
             if not node:
                 return 0
 
-            # Update current sum
+            # Update the current sum
             current_sum += node.val
 
             # Check if there is a prefix sum that satisfies current_sum - targetSum
